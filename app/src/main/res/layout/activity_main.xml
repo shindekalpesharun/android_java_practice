@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_intent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intent"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_drop_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Drop Down*"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_web_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Web View"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_internal_storage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Internal Storage"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Progress"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/btn_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Rating"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_gallary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Gallary *"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_autocomplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="autocomplete"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_asunc_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Async task"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/btn_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Notification"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_broadcast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Broadcast"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_list_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="List view"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_custom_list_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="custom list view"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_basic_recycle_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic recycle view"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_volley_network_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="volley network call"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_gson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gson"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_retrofit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="retrofit"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</ScrollView>
