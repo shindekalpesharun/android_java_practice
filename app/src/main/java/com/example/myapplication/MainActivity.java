@@ -7,7 +7,9 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myapplication.GlideImage.GlideActivity;
 import com.example.myapplication.GsonNetwork.GsonNetworkCallActivity;
+import com.example.myapplication.permission.RuntimePermissionActivity;
 import com.example.myapplication.retrofitNetwork.RetrofitNetworkCallMainActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -34,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btn_volley_network_call = findViewById(R.id.btn_volley_network_call);
         Button btn_gson=findViewById(R.id.btn_gson);
         Button btn_retrofit=findViewById(R.id.btn_retrofit);
+        Button btn_glide=findViewById(R.id.btn_glide);
+        Button btn_runtime_permission=findViewById(R.id.btn_runtime_permission);
 
         btn_intent.setOnClickListener(this);
         btn_drop_down.setOnClickListener(this);
@@ -52,12 +56,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_volley_network_call.setOnClickListener(this);
         btn_gson.setOnClickListener(this);
         btn_retrofit.setOnClickListener(this);
+        btn_glide.setOnClickListener(this);
+        btn_runtime_permission.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.btn_intent) {
             Intent intent = new Intent(this, SecondActivity.class);
+            intent.putExtra("randomData", "shindekalpesharun");
             startActivity(intent);
         }
         if (view.getId() == R.id.btn_drop_down) {
@@ -122,6 +129,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         if(view.getId()==R.id.btn_retrofit){
             Intent intent=new Intent(this, RetrofitNetworkCallMainActivity.class);
+            startActivity(intent);
+        }if(view.getId()==R.id.btn_glide){
+            Intent intent=new Intent(this, GlideActivity.class);
+            startActivity(intent);
+        }if(view.getId()==R.id.btn_runtime_permission){
+            Intent intent=new Intent(this, RuntimePermissionActivity.class);
             startActivity(intent);
         }
     }
